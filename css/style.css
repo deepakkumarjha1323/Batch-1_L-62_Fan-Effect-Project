@@ -1,0 +1,48 @@
+.FanBox{
+    width: 330px;
+    height: 330px;
+    background-image: url(../img/fan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 70px auto;
+    animation: fan 1s linear infinite;
+    animation-play-state: paused;
+}
+@keyframes fan {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(359deg);
+    }
+}
+.btgp{
+    text-align: center;
+}
+.btgp > button:first-child{
+    background-image: url(../img/stopbt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 0px;
+}
+.btgp > button:nth-child(2){
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+ }
+ .btgp > button:nth-child(3){
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+ }
+ .btgp > button:nth-child(4){
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+ }
